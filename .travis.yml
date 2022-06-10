@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "4"
+env:
+  - CMD=build
+  - CMD=test
+  - CMD=typecheck
+  - CMD=lint
+  - CMD=test-babel-presets
+script: npm run $CMD

@@ -1,0 +1,11 @@
+[ignore]
+.*/__tests__/.*
+.*/node_modules/invariant/.*
+
+[include]
+
+[options]
+module.system=haste
+
+[version]
+^0.38.0
